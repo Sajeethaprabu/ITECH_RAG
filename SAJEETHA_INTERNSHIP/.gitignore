@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# Qdrant local storage (if exists)
+qdrant_storage/
+qdrant_data/
+
+# Ollama model storage
+ollama_data/
+
+# macOS junk
+.DS_Store
